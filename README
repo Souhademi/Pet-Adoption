@@ -1,0 +1,38 @@
+# 🐾 Pet Adoption Platform
+
+A simple Node.js + Express + MongoDB API to manage and browse adoptable pets.  
+Built to demonstrate backend development, authentication, file uploads, and RESTful API design.
+
+![Screenshot](./screenshot.png)
+
+---
+
+## ✨ Features
+
+- View list of adoptable pets
+- View single pet details
+- Admin login & register (JWT-based authentication)
+- Admin can:
+  - Add new pets (with image upload)
+  - Edit pet information
+  - Delete pets
+- Image uploads stored locally
+- Filter or search pets by type, age (coming soon)
+
+---
+
+## 🛠 Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Multer (file upload)
+- JWT (authentication)
+- bcryptjs (password hashing)
+- dotenv
+- CORS
+
+---
+
+## 📁 Folder Structure
+
